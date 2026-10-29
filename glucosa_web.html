@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glucosa | Conoce tu energía</title>
+<style>
+:root{--bg:#091525;--card:#12243a;--mint:#60e6bb;--text:#edf6ff;--muted:#b9c9d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Arial,sans-serif;line-height:1.65}
+header{position:sticky;top:0;background:#091525ee;backdrop-filter:blur(12px);border-bottom:1px solid #29425b;z-index:3}
+nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.logo{font-weight:800;color:var(--mint);font-size:1.2rem}nav a{color:var(--text);text-decoration:none;margin-left:16px;font-size:.95rem}nav a:hover{color:var(--mint)}
+.hero{background:radial-gradient(circle at 75% 35%,#13545a 0,transparent 45%),linear-gradient(135deg,#0c2138,#091525);padding:100px 24px 85px}
+.wrap{max-width:1100px;margin:auto}.eyebrow{color:var(--mint);text-transform:uppercase;letter-spacing:.17em;font-weight:700}
+h1{font-size:clamp(2.7rem,7vw,5rem);line-height:1.1;max-width:800px;margin:12px 0}h1 span,h2 span{color:var(--mint)}
+.hero p{max-width:650px;color:var(--muted);font-size:1.18rem}.btn{display:inline-block;border:0;border-radius:12px;background:var(--mint);color:#082020;padding:12px 22px;font-weight:800;text-decoration:none;cursor:pointer}
+section{padding:65px 24px}h2{font-size:2rem;margin:0 0 18px}p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin-top:26px}
+.card{background:var(--card);border:1px solid #29445a;border-radius:20px;padding:24px;box-shadow:0 12px 28px #0002}.card h3{color:var(--mint);margin:8px 0}.icon{font-size:2rem}
+.alt{background:#0d1d30}.note{border-left:4px solid var(--mint);padding:12px 18px;background:#143047;border-radius:0 12px 12px 0}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:15px;overflow:hidden}th,td{text-align:left;padding:15px;border-bottom:1px solid #2d455a}th{color:var(--mint)}
+.quiz button{display:block;width:100%;margin:10px 0;text-align:left;background:#1c3550;border:1px solid #3a5b74;color:white;padding:14px;border-radius:12px;cursor:pointer}.quiz button:hover{background:#2c4f6b}
+#feedback{font-weight:700;color:var(--mint);min-height:28px}footer{text-align:center;padding:30px;color:var(--muted);border-top:1px solid #29425b}
+@media(max-width:550px){nav a{margin-left:9px;font-size:.85rem}.hero{padding-top:70px}th,td{padding:10px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<header><nav><div class="logo">⬡ GLUCOSA LAB</div><div><a href="#que-es">¿Qué es?</a><a href="#funcion">Funciones</a><a href="#niveles">Niveles</a><a href="#quiz">Quiz</a></div></nav></header>
+<main>
+<div class="hero"><div class="wrap"><div class="eyebrow">Biología · Salud · Ciencia</div><h1>Glucosa: la <span>energía</span> que mueve tu cuerpo.</h1><p>Descubre qué es la glucosa, cómo la utiliza el organismo y por qué mantener un equilibrio es importante para la salud.</p><a class="btn" href="#que-es">Comenzar a explorar ↓</a></div></div>
+<section id="que-es"><div class="wrap"><h2>¿Qué es la <span>glucosa?</span></h2><p>La glucosa es un azúcar simple (monosacárido) de fórmula química <strong>C₆H₁₂O₆</strong>. Es una de las principales fuentes de energía para las células. Se obtiene de los alimentos, especialmente al digerir carbohidratos, y circula por la sangre para llegar a los tejidos.</p><div class="grid"><article class="card"><div class="icon">🧬</div><h3>Molécula esencial</h3><p>Es un monosacárido que participa en múltiples procesos metabólicos.</p></article><article class="card"><div class="icon">⚡</div><h3>Fuente de energía</h3><p>Las células pueden transformar glucosa en ATP mediante la respiración celular.</p></article><article class="card"><div class="icon">🩸</div><h3>Viaja por la sangre</h3><p>Su concentración sanguínea se regula mediante distintas hormonas.</p></article></div></div></section>
+<section class="alt" id="funcion"><div class="wrap"><h2>¿Cómo la utiliza el <span>organismo?</span></h2><div class="grid"><article class="card"><h3>1. Digestión</h3><p>Muchos carbohidratos de los alimentos se descomponen en azúcares simples.</p></article><article class="card"><h3>2. Absorción</h3><p>La glucosa pasa del intestino a la sangre y se distribuye por el cuerpo.</p></article><article class="card"><h3>3. Regulación</h3><p>La insulina facilita la captación de glucosa en muchos tejidos; el glucagón ayuda a elevar la glucosa sanguínea cuando es necesario.</p></article><article class="card"><h3>4. Almacenamiento</h3><p>Parte de la glucosa se almacena como glucógeno, principalmente en hígado y músculos.</p></article></div></div></section>
+<section id="niveles"><div class="wrap"><h2>Niveles de glucosa <span>en ayunas</span></h2><p>Estos son valores orientativos utilizados para evaluar la glucosa plasmática en personas no embarazadas:</p><table><thead><tr><th>Clasificación</th><th>Glucosa en ayunas</th></tr></thead><tbody><tr><td>Intervalo habitual</td><td>Menos de 100 mg/dL</td></tr><tr><td>Prediabetes</td><td>100–125 mg/dL</td></tr><tr><td>Intervalo compatible con diabetes</td><td>126 mg/dL o más</td></tr></tbody></table><p class="note"><strong>Importante:</strong> un resultado aislado no siempre confirma un diagnóstico. La interpretación depende del contexto clínico y normalmente requiere confirmación por un profesional de salud.</p></div></section>
+<section class="alt"><div class="wrap"><h2>¿Por qué importa el <span>equilibrio?</span></h2><div class="grid"><article class="card"><h3>Hipoglucemia</h3><p>Es una concentración de glucosa demasiado baja. Puede causar temblores, sudoración, hambre o confusión y requiere atención apropiada.</p></article><article class="card"><h3>Hiperglucemia</h3><p>Es una concentración elevada de glucosa en sangre. Si es persistente, puede asociarse con problemas de salud.</p></article><article class="card"><h3>Hábitos saludables</h3><p>Una alimentación variada, actividad física adecuada, descanso y seguimiento médico cuando corresponda ayudan a cuidar la salud metabólica.</p></article></div></div></section>
+<section id="quiz"><div class="wrap quiz"><h2>Comprueba lo que <span>aprendiste</span></h2><div class="card"><h3>¿Qué hormona facilita la captación de glucosa en muchos tejidos?</h3><button onclick="responder(false)">A. Melatonina</button><button onclick="responder(true)">B. Insulina</button><button onclick="responder(false)">C. Adrenalina</button><p id="feedback" aria-live="polite"></p></div></div></section>
+<section class="alt"><div class="wrap"><h2>Fuentes para <span>aprender más</span></h2><p>Consulta información educativa de instituciones de salud reconocidas:</p><p><a style="color:var(--mint)" href="https://medlineplus.gov/spanish/bloodglucose.html" target="_blank" rel="noopener">MedlinePlus — Glucosa en la sangre</a></p><p><a style="color:var(--mint)" href="https://www.cdc.gov/diabetes/es/" target="_blank" rel="noopener">CDC — Diabetes</a></p></div></section>
+</main><footer>© 2026 Glucosa Lab · Sitio educativo · No sustituye asesoramiento médico.</footer>
+<script>function responder(correcta){document.getElementById('feedback').textContent=correcta?'¡Correcto! La insulina ayuda a que muchas células capten glucosa.':'Intenta otra vez. Pista: esta hormona es producida por el páncreas.'}</script>
+</body></html>
